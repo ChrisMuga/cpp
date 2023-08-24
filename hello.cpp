@@ -1,8 +1,10 @@
 #include <iostream>
+#include "vars.h"
+
 using namespace std;
 
 void echo(){
-	cout << "Hello World?\n";
+	cout << APP_NAME << ": Hello World?\n";
   string name;
 
   cout << "Enter your name: ";
