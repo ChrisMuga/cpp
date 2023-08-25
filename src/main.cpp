@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int main(void){
+int main(){
   cout << APP_NAME << "\n";
 
   string resGet = httpGet("https://jsonplaceholder.typicode.com/posts");
