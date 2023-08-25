@@ -1,2 +1,1 @@
-g++ -o hello hello.cpp; ./hello
-
+g++ -o build/mitri src/main.cpp; ./build/mitri
