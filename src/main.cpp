@@ -9,12 +9,13 @@
 
 using namespace std;
 
-int main(){
+int main(void){
   cout << APP_NAME << "\n";
 
-  CURLcode res = httpPost("https://jsonplaceholder.typicode.com/posts");
-  cout << res;
+  CURLcode resGet = httpGet("https://jsonplaceholder.typicode.com/posts");
+  CURLcode resPost = httpPost("https://jsonplaceholder.typicode.com/posts");
 
-	return 0;
+  cout << resGet << "\n";
+  cout << resPost << "\n";
 }
 
