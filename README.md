@@ -29,10 +29,10 @@ At the root of the directory
 ```
 
 # TODOs
-- Make a simple GET Request
 - Interface with GitHub APIs
 
 ## Log
 - Init
 - Calling functions from other files
+- Make a simple GET Request
 
