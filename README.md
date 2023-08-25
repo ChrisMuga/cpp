@@ -12,7 +12,21 @@ A github app to ping you when someone reacts/comments to your pull requests
 
 ```sh
 sudo apt-get install libcurl4-openssl-dev
-``
+```
+
+## How To Run
+
+At the root of the directory
+
+> To compile
+```sh
+./compile.sh
+```
+
+> To Compile and Run
+```sh
+./run.sh
+```
 
 # TODOs
 - Make a simple GET Request
