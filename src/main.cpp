@@ -1,19 +1,23 @@
 #include <iostream>
 
+#include <curl/curl.h>
+
 /* Helpers */
 /* Constants */
 #include "vars.h"
-#include "make-request.h"
+#include "http.h"
 
 using namespace std;
 
 int main(){
   cout << APP_NAME << "\n";
 
-  /* string response = makeGetRequest(); */
+  /* string response = httpGet(); */
   /* cout << response << std::endl; */
 
-  makePostRequest("https://jsonplaceholder.typicode.com/posts");
+  CURLcode x = httpPost("https://jsonplaceholder.typicode.com/posts");
+  cout << x;
+
 
 	return 0;
 }
