@@ -12,8 +12,8 @@ using namespace std;
 int main(){
   cout << APP_NAME << "\n";
 
-  CURLcode x = httpPost("https://jsonplaceholder.typicode.com/posts");
-  cout << x;
+  CURLcode res = httpPost("https://jsonplaceholder.typicode.com/posts");
+  cout << res;
 
 	return 0;
 }
